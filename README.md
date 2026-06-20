@@ -1,4 +1,6 @@
-# ady-multiplay_mod
+# ady's 멀티 공식 모드
+
+-# made by. sohfjdhs
 
 ady0525(일명 ady, 두체) 님의 하츠오브아이언4 멀티 서버(호호이 멀티&수다방) 공식 모드입니다.
 
