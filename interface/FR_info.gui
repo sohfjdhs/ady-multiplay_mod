@@ -1,0 +1,82 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Mod_guide_screen_opener_window"
+		position = { x = 200 y = 38 }
+		size = { width = 100%% height = 100%% }
+
+		buttonType = {
+			name = "topbar_opening_button"
+			position = { x = -420 y = -30 }
+			quadTextureSprite = "GFX_topbar_star_button"
+			Orientation = "UPPER_RIGHT"
+			scale = 0.75
+		}
+	}
+	
+	containerwindowtype = {
+		name = "Mod_guide_screen_window"
+		size = { width = 900 height = 500 }
+		orientation = center
+		position = { x = -471 y = -221 }
+		moveable = yes
+		click_to_front = yes
+		clipping = no
+		fade_time = 15000
+		fade_type = linear
+		
+		background = {
+			name = "bg"
+			quadtexturesprite = "GFX_tiled_bg"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = 750 y = 440 }
+			quadTextureSprite = "GFX_button_123x34"
+			buttonFont = "hoi_20bs"
+			buttonText = "OK_THANK_YOU"
+			shortcut = "ESCAPE"
+		}
+		
+		#mod info
+		buttonType = {
+			name = "patches_button"
+			position = { x = 25 y = 25 }
+			quadTextureSprite = "GFX_button_123x34"
+			buttonFont = "hoi_20bs"
+			buttonText = "PATCHES_INFO"
+			shortcut = "f"
+		}
+
+		#credit
+		buttonType = {
+			name = "credit_button"
+			position = { x = 25 y = 375 }
+			quadTextureSprite = "GFX_button_123x34"
+			buttonFont = "hoi_20bs"
+			buttonText = "CREDIT_INFO"
+			shortcut = "c"
+		}
+		
+		instantTextBoxType = {
+			name = "info_title"
+			position = { x = 725 y = 25 }
+			text = "[GET_INFO_TEXT]"
+			font = "hoi_36header"
+			maxwidth = 144
+			maxheight = 36
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "info_lore"
+			position = { x = 150 y = 70 }
+			text = "[GET_INFO_LORE_TEXT]"
+			font = "hoi_30header"
+			maxwidth = 660
+			maxheight = 360
+			format = left
+			scrollbartype = "standardtext_slider"
+		}
+	}
+}

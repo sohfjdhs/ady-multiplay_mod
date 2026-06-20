@@ -1,0 +1,35 @@
+defined_text = {
+	name = GET_INFO_TEXT
+	text = {
+		trigger = {
+			has_country_flag = Mod_guide_screen_visible
+			check_variable = { info_var = 0 }
+		}
+		localization_key = Mod_info_patches
+	}
+	text = {
+		trigger = {
+			has_country_flag = Mod_guide_screen_visible
+			check_variable = { info_var = 6 }
+		}
+		localization_key = Mod_info_credit
+	}
+}
+
+defined_text = {
+	name = GET_INFO_LORE_TEXT
+	text = {
+		trigger = {
+			has_country_flag = Mod_guide_screen_visible
+			check_variable = { info_var = 0 }
+		}
+		localization_key = Mod_lore_patches
+	}
+	text = {
+		trigger = {
+			has_country_flag = Mod_guide_screen_visible
+			check_variable = { info_var = 6 }
+		}
+		localization_key = Mod_lore_credit
+	}
+}

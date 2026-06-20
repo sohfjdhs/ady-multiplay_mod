@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = { #topbar.gui
+		name = "GFX_topbar_star_button"
+		textureFile = "gfx/interface/topbar/topbar_star_button.dds"
+	}
+}

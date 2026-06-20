@@ -1,0 +1,53 @@
+scripted_gui = {
+	Mod_guide_screen_opener = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "Mod_guide_screen_opener_window"
+
+		visible = {
+			
+		}
+
+		effects = {
+			topbar_opening_button_click = {
+				if = {
+					limit = {
+						has_country_flag = Mod_guide_screen_visible
+					}
+					clr_country_flag = Mod_guide_screen_visible
+					clear_variable = info_var
+				}
+				else = {
+					set_country_flag = Mod_guide_screen_visible
+					set_variable = { info_var = 0 }
+				}
+			}
+		}
+		
+		triggers = {
+			
+		}
+	}
+	
+	Mod_guide_screen = {
+		context_type = player_context
+		window_name = "Mod_guide_screen_window"
+		
+		visible = {
+			has_country_flag = Mod_guide_screen_visible
+		}
+		
+		effects = {
+			close_button_click = {
+				clr_country_flag = Mod_guide_screen_visible
+				clear_variable = info_var
+			}
+			patches_button_click = {
+				set_variable = { info_var = 0 }
+			}
+			credit_button_click = {
+				set_variable = { info_var = 6 }
+			}
+		}
+	}
+}
