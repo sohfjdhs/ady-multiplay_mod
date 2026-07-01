@@ -1,0 +1,33 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_decision_EGY_Anglo_Egyptian_treaty"
+		textureFile = "gfx/interface/decisions/decision_cat_EGY_Anglo_Egyptian_treaty.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_cat_EGY_Anglo_Egyptian_treaty"
+		textureFile = "gfx/interface/decisions/decision_cat_EGY_start_Anglo_Egyptian_treaty.dds"
+	}
+
+#이벤트
+	spriteType = {
+		name = "GFX_report_event_EGY.999"
+		textureFile = "gfx/event_picture/GFX_report_event_EGY.999.dds"
+	}
+
+#아이디어
+	spriteType = {
+		name = "GFX_idea_EGY_sudans_resistance"
+		textureFile = "gfx/interface/ideas/EGY/idea_EGY_sudans_resistance.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EGY_british_interference"
+		textureFile = "gfx/interface/ideas/EGY/idea_EGY_british_interference.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_EGY_an_unstable_kingdom"
+		textureFile = "gfx/interface/ideas/EGY/idea_EGY_an_unstable_kingdom.dds"
+	}
+}

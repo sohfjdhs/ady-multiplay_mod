@@ -1,0 +1,54 @@
+ideas = {
+	industrial_concern = {
+	}
+    country = {
+
+        EGY_sudans_resistance = {
+
+		    picture = GFX_idea_EGY_sudans_resistance 
+            
+		    allowed_civil_war = {always = no}
+
+		    removal_cost = -1
+
+		    modifier = {
+		    }
+        }
+
+        EGY_british_interference = {
+
+		    picture = GFX_idea_EGY_british_interference
+            
+		    allowed_civil_war = {always = no}
+
+		    removal_cost = -1
+
+		    modifier = {
+		    }
+        }
+
+        EGY_an_unstable_kingdom = {
+
+		    picture = GFX_idea_EGY_an_unstable_kingdom
+            
+		    allowed_civil_war = {always = no}
+
+		    removal_cost = -1
+
+		    modifier = {
+		    }
+        }
+
+        EGY_warrior_of_the_desert = {
+
+		    picture = MEX_politicised_army_2
+            
+		    allowed_civil_war = {always = no}
+
+		    removal_cost = -1
+
+		    modifier = {
+		    }
+        }
+    }
+}

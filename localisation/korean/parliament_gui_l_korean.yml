@@ -1,0 +1,18 @@
+﻿l_korean:
+
+ # Decisions
+  parliament_gui_decision_category:0 "Parliament GUI Examples§!"
+  parliament_gui_decision_category_desc:0 "placeholder text\nplaceholder text\nplaceholder text"
+
+ # Scripted GUIs
+  parliament_gui_title:0 "Grid Parliament"
+  semicircle_parliament_gui_title:0 "이집트 의회 - 의석"
+  parliament_main_icon_tt:0 "[GetParliamentSeatName] - [GetParliamentPartyName]"
+  parliament_seat_text:0 "Seat [?temp_seat|Y0]"
+  parliament_member_text:0 "[GetParliamentPartyName] - [?parliament_seat_array^parliament_member_index] Seats"
+  parliament_modify_button_tt:0 "§GCtrl+Click§!을(를) 누른체로 아이콘을 클릭하면 §Y5§!석을 [GetParliamentPartyName]에 추가합니다.\n§GShift+Click§!을(를) 누른체로 아이콘을 클릭하면 §Y5§!석을 [GetParliamentPartyName]에서 제거합니다."
+
+  party_1_text:0 "§R와프드당§!"
+  party_2_text:0 "§Y자유헌정당§!"
+  party_3_text:0 "§G인민연합당§!"
+  party_4_text:0 "§B국민당§!"

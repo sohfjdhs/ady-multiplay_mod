@@ -1,0 +1,27 @@
+EGY_Anglo_Egyptian_treaty = {
+	icon = GFX_decision_cat_EGY_Anglo_Egyptian_treaty
+    picture = GFX_decision_cat_picture_memphis_initiative
+	allowed = {
+		original_tag = EGY
+	}
+	visible = {
+        always = yes
+	}
+	priority = 999
+	visible_when_empty = yes
+}
+
+EGY_parliament = {
+	icon = GFX_decision_category_usa_congress
+	#picture = GFX_AST_cabinet_trust_bg
+	allowed = {
+		original_tag = EGY
+	}
+	visible = {
+        always = yes
+	}
+	priority = 1000
+	visible_when_empty = yes
+	scripted_gui = EGY_parliament_gui
+	#scripted_gui = parliament_gui
+}
