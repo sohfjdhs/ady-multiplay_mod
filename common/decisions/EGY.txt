@@ -19,6 +19,21 @@ EGY_Anglo_Egyptian_treaty = {
 }
 
 EGY_parliament = {
+    DEBUG_control_parliament_debug = {
+		icon = generic_industry
+
+		visible = {
+			is_debug = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = EGY_on_parliament_debug
+		}
+	}
+
 	open_parliament_gui = {
 		icon = generic_industry
 

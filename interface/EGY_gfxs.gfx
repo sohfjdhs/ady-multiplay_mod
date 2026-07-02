@@ -30,4 +30,42 @@ spriteTypes = {
 		name = "GFX_idea_EGY_an_unstable_kingdom"
 		textureFile = "gfx/interface/ideas/EGY/idea_EGY_an_unstable_kingdom.dds"
 	}
+
+#중점
+	spriteType = {
+		name = "GFX_focus_EGY_the_loyal_gem"
+		texturefile = "gfx/interface/goals/focus_EGY_the_loyal_gem.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_EGY_the_loyal_gem_shine"
+		texturefile = "gfx/interface/goals/focus_EGY_the_loyal_gem.dds"			
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_EGY_the_loyal_gem.dds"			
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+			animationrotation = -90.0		
+			animationlooping = no		
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/focus_EGY_the_loyal_gem.dds"			
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
 }

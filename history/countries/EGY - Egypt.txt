@@ -1,5 +1,7 @@
 ﻿capital = 907
 
+oob = "EGY_1936"
+
 add_ideas = {
 	EGY_sudans_resistance
 	EGY_british_interference

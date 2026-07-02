@@ -1,0 +1,54 @@
+#search_filters = {FOCUS_FILTER_POLITICAL}
+#search_filters = {FOCUS_FILTER_RESEARCH}
+#search_filters = {FOCUS_FILTER_INDUSTRY}
+#search_filters = {FOCUS_FILTER_STABILITY}
+#search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+#search_filters = {FOCUS_FILTER_MANPOWER}
+#search_filters = {FOCUS_FILTER_ANNEXATION}
+#search_filters = {FOCUS_FILTER_INTERNAL_AFFAIRS}
+#search_filters = {FOCUS_FILTER_ARMY_XP}
+#search_filters = {FOCUS_FILTER_NAVY_XP}
+#search_filters = {FOCUS_FILTER_AIR_XP}
+#search_filters = {FOCUS_FILTER_BALANCE_OF_POWER}
+#search_filters = {FOCUS_FILTER_POLITICAL_CHARACTER}
+#search_filters = {FOCUS_FILTER_MILITARY_CHARACTER}
+#search_filters = {FOCUS_FILTER_INTERNATIONAL_TRADE}
+#search_filters = {FOCUS_FILTER_HISTORICAL}
+#search_filters = {FOCUS_FILTER_TFV_AUTONOMY}
+
+focus_tree = {
+    id = EGY_focus
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = EGY
+        }
+    }
+    
+    focus = {
+        id = EGY_the_loyal_gem
+        icon = GFX_focus_EGY_the_loyal_gem
+        x = 0
+        y = 0
+        cost = 10
+
+        available = {
+            is_subject = yes
+            custom_trigger_tooltip = {
+                tooltip = has_anglo_egyptian_treaty
+                has_country_flag = have_has_anglo_egyptian_treaty
+            }
+        }
+
+        search_filters = {FOCUS_FILTER_POLITICAL}
+
+        allow_branch = { 
+	    }
+
+        completion_reward = {
+        }
+        ai_will_do = { factor = 0 }
+    }
+}
